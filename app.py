@@ -7,7 +7,7 @@ app = Flask(__name__)
 def home():
     return jsonify({
         "project": "Automated CI/CD Pipeline",
-        "status": "stopped",
+        "status": "running",
         "message": "My first DevOps project is working!"
     })
 
